@@ -1,5 +1,6 @@
 # 球谐光照
-是在https://github.com/lianera/SphericalHarmonicsLighting上添加5阶SH，如果想使用4阶及以下的可参考此链接。输入数据为cubemap的6张单独的图像，从HDR图像得到cubemap的6个面贴图可参考https://github.com/rjhuang27/HDR-into-cubemap/tree/master
+是在https://github.com/lianera/SphericalHarmonicsLighting
+上添加5阶SH，如果想使用4阶及以下的可参考此链接。输入数据为cubemap的6张单独的图像，从HDR图像得到cubemap的6个面贴图可参考https://github.com/rjhuang27/HDR-into-cubemap/tree/master
 
 | ![](screenshot/ball.jpg)  | ![](screenshot/bunny.jpg)  | ![](screenshot/teapot.jpg)  |
 |---|---|---|
