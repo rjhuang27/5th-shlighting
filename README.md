@@ -28,4 +28,4 @@
 ## 环境
 
 * Visual Studio 2017
-* 第三方库：OpenGL, Glfw3, Glew, glm, stb_image （推荐使用vcpkg安装第三方库）
+* 第三方库：OpenGL, Glfw3, Glew, glm, assimp, stb_image （推荐使用vcpkg安装第三方库）
