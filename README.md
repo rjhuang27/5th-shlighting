@@ -30,17 +30,19 @@
 * Visual Studio 2017
 * 第三方库：OpenGL, Glfw3, Glew, glm, assimp, stb_image （推荐使用vcpkg安装第三方库）
 
-degree = 4
-samplenum = 1000000
-#write_rendered =
-#write_rendered = "--write-rendered"
-for file in data2/*
+```
+degree=4
+samplenum=1000000
+write_rendered=
+#write_rendered="--write-rendered"
+for f1 in data2/*
 do
-       for f in file/*
-       do
-            if [ -d "$f" ]; then
-	echo "===== processing $f ====="
-	Release/sampler.exe $f jpg $degree $samplenum $write_rendered
-	fi
-        done
+    for f in $f1/*
+    do 
+        if [ -d "$f" ]; then
+            echo "===== processing $f ====="
+            Release/sampler.exe $f jpg $degree $samplenum $write_rendered
+        fi
+    done
 done
+```
