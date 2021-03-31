@@ -18,7 +18,8 @@
 * [Spherical Harmonics Lighting](lighting)：球谐光照渲染器
 
 ## 运行
-
+下载模型和数据[[baidu disk]](https://pan.baidu.com/s/1nHbdFPfUnOpO1NeaC_GWVg) 提取码：asdf 
+将其解压放在工程下即可
 使用sample_all.sh进行采样，加上--write-rendered可以用球谐参数直接生成CubeMap
 
 运行rendering_all.sh查看渲染效果
